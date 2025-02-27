@@ -29,7 +29,7 @@ class DAWG:
         return node.is_word
 
 
-def read_from_dict():
+def sjp():
     with open('slowa.txt', 'rt') as file:
         words = []
         for line in file:
@@ -37,7 +37,7 @@ def read_from_dict():
             words.append(word)
     print("slowa wczytane, liczba slow: ", len(words))
     return DAWG(words)
-print("start")
-read_from_dict()
-print("gotowe")
+# print("start")
+# sjp()
+# print("gotowe")
 
