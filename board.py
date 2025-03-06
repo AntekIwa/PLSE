@@ -49,5 +49,9 @@ def sample_board():
     result = Board(7)
     result.set_tile((1,1), "d")
     result.set_tile((2,1), "o")
+    result.set_tile((3,1), 'm')
+    result.set_tile((1, 3), "m")
+    result.set_tile((2, 3), "e")
+    result.set_tile((3, 3), 't')
     return result
 
