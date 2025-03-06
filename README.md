@@ -6,7 +6,7 @@ Polish Lexical Scrabble Engine (PLSE) is a Scrabble engine that finds all possib
 
 This project is a Python implementation of the algorithm described in:
 
-[World's Fastest Scrabble Algorithm - CMU](https://www.cs.cmu.edu/afs/cs/academic/class/15451-s06/www/lectures/scrabble.pdf)
+[World's Fastest Scrabble program - CMU](https://www.cs.cmu.edu/afs/cs/academic/class/15451-s06/www/lectures/scrabble.pdf)
 
 It uses the SJP dictionary of words allowed in word games:
 
